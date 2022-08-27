@@ -1,0 +1,52 @@
+@media screen and (min-width: 750px) and (max-width: 1100px) {
+    .container {
+        width: calc(100% - 210px);
+        margin-left: 210px;
+    }
+
+    #blog .card {
+        margin: 30px 10px;
+    }
+
+    #music .head {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 750px) {
+    .container {
+        width: calc(100% - 210px);
+        margin-left: 210px;
+    }
+
+    #blog .card {
+        margin: 30px 10px;
+    }
+
+    #music .head {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    nav {
+        margin-left: -100%;
+    }
+
+    .container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #blog .card {
+        margin: 30px 0px;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    #music .head {
+        padding: 0 100px;
+    }
+}
